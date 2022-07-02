@@ -14,5 +14,5 @@ import javax.persistence.Entity;
 @EqualsAndHashCode
 @NoArgsConstructor
 public class Bus extends Vehicle{
-  int numberOfPassengers;
+  private int numberOfPassengers;
 }
