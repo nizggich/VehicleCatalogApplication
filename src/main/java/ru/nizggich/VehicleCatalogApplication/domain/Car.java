@@ -14,5 +14,5 @@ import javax.persistence.Entity;
 @EqualsAndHashCode
 @NoArgsConstructor
 public class Car extends Vehicle{
-    int engineVolume;
+   private int engineVolume;
 }
